@@ -2,14 +2,65 @@
     <header>
         <link rel="stylesheet" href="styles.css">
         <script src="script.js"></script>
-        To-Do List 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     </header>
 
     <body>
-        <svg  width="600" height="300">
-            <rect class="rectangle" width="600" height="300" 
-            <!-- style="fill:rgb(255, 255, 255);stroke-width:3;stroke:rgb(0,0,0)" /> -->
-        </svg>
+
+        <div class="container">
+            <!-- Content here -->
+            <h1>To-Do List </h1>
+            <div class="input-group">
+                <input type="text" class="form-control" id="myInput" placeholder="Add an Item" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button onclick="newElement()" class="btn btn-outline-secondary" type="button">Submit</button>
+                  <button class="btn btn-outline-secondary" type="button">Clear List</button>
+                </div>
+              </div>
+        
+       
+            <!-- <ul class="list-group">
+                <li class="list-group-item">Cras justo odio
+                    <button type="button" class="btn btn-outline-danger">Close</button>
+                    <button type="button" class="btn btn-outline-success">Done</button>
+                </li>
+                <li class="list-group-item">Dapibus ac facilisis in
+                    <button type="button" class="btn btn-outline-danger">Close</button>
+                    <button type="button" class="btn btn-outline-success">Done</button>
+                </li>
+                <li class="list-group-item">Morbi leo risus
+                    <button type="button" class="btn btn-outline-danger">Close</button>
+                    <button type="button" class="btn btn-outline-success">Done</button>
+                </li>
+                <li class="list-group-item">Porta ac consectetur ac
+                    <button type="button" class="btn btn-outline-danger">Close</button>
+                    <button type="button" class="btn btn-outline-success">Done</button>
+                </li>
+                <li class="list-group-item">Vestibulum at eros
+                    <button type="button" class="btn btn-outline-danger">Close</button>
+                    <button type="button" class="btn btn-outline-success">Done</button>
+                </li>
+            </ul> -->
+            <ul class="list-group cProductsList" id="myUL"> 
+                <li class="list-group-item d-flex justify-content-between"><p class="p-0 m-0 flex-grow-1">First item</p> 
+                    <button type="button" class="btn btn-outline-danger">Close</button>
+                    <button type="button" class="btn btn-outline-success">Done</button>
+                    <!-- <button type="button" class="btn btn-primary btn-sm">Small button</button>
+                    <button type="button" class="btn btn-secondary btn-sm">Small button</button> -->
+                    <!-- <button class="btn-success">Submit</button>  <button class="btn-danger">DELETE</button> -->
+                </li>
+               <li class="list-group-item d-flex justify-content-between"><p class="p-0 m-0 flex-grow-1">Second item</p>  
+                <button type="button" class="btn btn-outline-danger">Close</button>
+                <button type="button" class="btn btn-outline-success">Done</button>
+                  
+                <!-- <button class="btn-success">EDIT</button>  <button class="btn-danger">DELETE</button> -->
+                </li> 
+    </ul>
+
+        </div>
+  
+       
+  
   
 
     </body>

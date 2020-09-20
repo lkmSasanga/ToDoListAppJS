@@ -1,4 +1,34 @@
-.rectangle {
-    align-items: center;
-    padding-left: 100px;
+
+
+.container {
+    /* border: 2px solid red;
+    border-width: 70%; */
+
+    /* margin-bottom: 100px; */
+    margin-top: 50px;
 }
+
+h1 {
+    padding-bottom: 20px;
+}
+
+.list-group {
+    padding-top: 20px;
+}
+.btn-outline-danger {
+    /* margin-left: 60%; */
+
+
+}
+.btn-outline-success {
+    /* margin-right: 100px; */
+   
+}
+
+/* .list-group {
+    margin-left: 13%;
+    margin-right: 21%;
+    padding-right: 10%;
+    padding-left: 10%;
+
+} */
