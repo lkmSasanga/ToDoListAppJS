@@ -13,7 +13,7 @@ h1 {
 }
 
 .list-group {
-    padding-top: 20px;
+    padding-top: 50px;
 }
 .btn-outline-danger {
     /* margin-left: 60%; */
@@ -32,3 +32,39 @@ h1 {
     padding-left: 10%;
 
 } */
+li {
+    color: red(119, 119, 119)(71, 71, 71);
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+#item-button {
+    color: rgb(66, 66, 66);
+    /* margin-left: 10%; */
+    border-color: rgb(116, 116, 116);
+    border-style: solid;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.close-button {
+    margin-left: 10%;
+    margin-right: 2px;
+}
+
+li button :hover {
+    background-color: #5bc0de;
+    color: white;
+}
+
+#item-name {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66, 66, 66);
+
+
+}
